@@ -27,21 +27,20 @@ That's it, Enjoy having less ram usage, with better Performance.
 
 ## Extra
 
-If You want even more, You can apply some patches to the kernel To get even better performance..
+If You want even more, You can apply some patches to the kernel To get even better performance.
 
-To install a patch, Paste this command:
+To apply a patch, Paste this command:
 
 ```shell
+cd /path/to/your/linuxkernel 
 patch -p1 < /path/to/your/patch.patch
 ```
 
 
-1. All cpu Architectures: https://github.com/Diab1e/Linux-Kernel-Compiler-Patch.git
+1. All cpu Architectures patch: https://github.com/Diab1e/Linux-Kernel-Compiler-Patch.git
 
-2. Optimize O3 Harder (Gives Better performance): https://github.com/Frogging-Family/linux-tkg.git
+2. Optimize O3 Harder patch (Gives Better performance): https://github.com/Frogging-Family/linux-tkg.git
 
-3. Project C PDS/BMQ patch: https://gitlab.com/alfredchen/projectc.git
+3. Project C PDS/BMQ cpu shceduler patch: https://gitlab.com/alfredchen/projectc.git
 
 **All Of these patches improves the kernel performance.**
-
-Thanks.
