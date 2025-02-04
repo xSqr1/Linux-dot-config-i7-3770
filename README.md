@@ -12,7 +12,7 @@ At this time, This .config file was made on 6.13.0 kernel version, Will update i
 
 ```shell
 cd Downloads
-git clone https://github.com/xSqr1/Linux-dot-config-i7-3770.git"
+git clone https://github.com/xSqr1/Linux-dot-config-i7-3770.git
 cd Linux-dot-config-i7-3770
 ```
 
@@ -29,3 +29,19 @@ That's it, Enjoy having less ram usage, with better Performance.
 
 If You want even more, You can apply some patches to the kernel To get even better performance..
 
+To install a patch, Paste this command:
+
+```shell
+patch -p1 < /path/to/your/patch.patch
+```
+
+
+1. All cpu Architectures: https://github.com/Diab1e/Linux-Kernel-Compiler-Patch.git
+
+2. Optimize O3 Harder (Gives Better performance): https://github.com/Frogging-Family/linux-tkg.git
+
+3. Project C PDS/BMQ patch: https://gitlab.com/alfredchen/projectc.git
+
+**All Of these patches improves the kernel performance.**
+
+Thanks.
