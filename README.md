@@ -44,3 +44,8 @@ patch -p1 < /path/to/your/patch.patch
 3. Project C PDS/BMQ cpu shceduler patch: https://gitlab.com/alfredchen/projectc.git
 
 **All Of these patches improves the kernel performance.**
+
+
+## NOTES
+
+**THIS .CONFIG FILE IS HARSHLY OPTIMIZED FOR ULTRA PERFORMANCE AND LOWEST RAM USAGE POSSIBLE, SO THINGS LIKE "BLUETOOTH, PRINTERS" WILL NOT WORK.**
